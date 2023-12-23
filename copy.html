@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .fb-logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .input-group-append, .input-group-prepend .input-group-text {
+            border-color: #b8b8b8;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .login-btn {
+            background-color: #1877f2;
+            color: white;
+            width: 100%;
+            height: 45px;
+            border: none;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #1259b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Facebook_icon_2019.svg/1024px-Facebook_icon_2019.svg.png" alt="Facebook Logo" class="fb-logo">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email or Phone</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="email" placeholder="Enter Email or Phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text">Forgot?</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn login-btn">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
